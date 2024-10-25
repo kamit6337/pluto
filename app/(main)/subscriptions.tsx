@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const MovieDetailScreen = () => {
+const SubscriptionsScreen = () => {
   return (
     <View>
-      <Text>MovieDetailScreen</Text>
+      <Text>SubscriptionsScreen</Text>
     </View>
   );
 };
 
-export default MovieDetailScreen;
+export default SubscriptionsScreen;
