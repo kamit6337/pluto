@@ -96,11 +96,6 @@ const MovieDetailScreen = () => {
             data={genres}
             horizontal
             keyExtractor={(item, index) => index.toString()}
-            columnWrapperStyle={{
-              borderWidth: 3,
-              borderColor: "white",
-              borderStyle: "solid",
-            }}
             renderItem={({ item }) => (
               <Text className="text-foreground font-psemibold mx-1">
                 {item.name}
